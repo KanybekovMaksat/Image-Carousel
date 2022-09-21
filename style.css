@@ -72,6 +72,7 @@ transform: scale(1.1);
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    margin-top: -70px;
     margin-bottom: 100px;
 }
 .slider-content{
@@ -93,9 +94,6 @@ transform: scale(1.1);
     background: rgb(62, 151, 246);        
   }
   
-
-
-
   .slider-content::-webkit-scrollbar-thumb {
     background-color: blue;    
     border-radius: 20px;       
