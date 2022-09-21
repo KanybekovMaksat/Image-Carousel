@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title> Image Carousel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image fade">
+            <img src="./img/one.jpg" alt="nature">
+        </div>
+        <div class="image fade">
+            <img src="./img/two.jpg" alt="nature">
+        </div>
+        <div class="image fade">
+            <img src="./img/three.jpg" alt="nature">
+        </div>
+        <div class="image fade">
+            <img src="./img/four.jpg" alt="nature">
+        </div>
+        <div class="nav-img">
+        <div class="nav-left"><img id="left" onclick="show_image(-1)" src="./img/nav.png" alt="" ></div>
+        <div class="nav-right"><img id="right" onclick="show_image(1)" src="./img/nav.png" alt="" ></div>
+        </div>
+
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>
+    <div class="second-container">
+        <div class="slider-content">
+            <div class="slider-box"><img src="./img/second-one.jpg" alt="" class="box-img"></div>
+            <div class="slider-box"><img src="./img/second-two.jpg" alt="" class="box-img"></div>
+            <div class="slider-box"><img src="./img/second-three.jpg" alt="" class="box-img"></div>
+            <div class="slider-box"><img src="./img/second-four.jpg" alt="" class="box-img"></div>
+            <div class="slider-box"><img src="./img/second-five.jpg" alt="" class="box-img"></div>
+        </div>
+    </div>
+   <script src="./app.js"></script>
+</body>
+</html>
